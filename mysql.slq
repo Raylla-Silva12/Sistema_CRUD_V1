@@ -1,0 +1,14 @@
+CREATE DATABASE db_banquinho;
+USE db_banquinho;
+
+CREATE TABLE tb_produto(
+    cd_produto INT PRIMARY KEY AUTO_INCREMENT,
+    nm_produto VARCHAR(30),
+    vl_produto DECIMAL(7,2)
+);
+
+INSERT INTO tb_produto (nm_produto, vl_produto) VALUES ("pinkiepaie", 10.50);
+INSERT INTO tb_produto (nm_produto, vl_produto) VALUES ("boneca", 12.00);
+INSERT INTO tb_produto (nm_produto, vl_produto) VALUES ("carrinho", 23.00);
+INSERT INTO tb_produto (nm_produto, vl_produto) VALUES ("peruca", 11.50);
+INSERT INTO tb_produto (nm_produto, vl_produto) VALUES ("tinta", 06.10);
